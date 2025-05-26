@@ -1,1 +1,1 @@
-body{background-color:red!important}
+html{scroll-behavior:smooth}.barba-transition{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#1c264c;z-index:9999;transform:scaleY(0);transform-origin:bottom;pointer-events:none;will-change:transform}[data-barba=container]{opacity:1!important}
