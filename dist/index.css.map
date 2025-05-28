@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": ["../src/index.css"],
-  "sourcesContent": ["html {\n    scroll-behavior: smooth;\n}\n\n.barba-transition {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #1c264c;\n  z-index: 9999;\n  transform: scaleY(0);\n  transform-origin: bottom;\n  pointer-events: none;\n  will-change: transform;\n}\n[data-barba=\"container\"] {\n  opacity: 1 !important;\n}"],
-  "mappings": ";AAAA;AACI,mBAAiB;AACrB;AAEA,CAAC;AACC,YAAU;AACV,OAAK;AACL,QAAM;AACN,SAAO;AACP,UAAQ;AACR,oBAAkB;AAClB,WAAS;AACT,aAAW,OAAO;AAClB,oBAAkB;AAClB,kBAAgB;AAChB,eAAa;AACf;AACA,CAAC;AACC,WAAS;AACX;",
+  "sourcesContent": ["html {\n  scroll-behavior: smooth;\n}\n\n.barba-transition {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #1c264c;\n  z-index: 9999;\n  transform: scaleY(0);\n  transform-origin: bottom;\n  pointer-events: none;\n  will-change: transform;\n}\n[data-barba='container'] {\n  opacity: 1 !important;\n}\n"],
+  "mappings": ";AAAA;AACE,mBAAiB;AACnB;AAEA,CAAC;AACC,YAAU;AACV,OAAK;AACL,QAAM;AACN,SAAO;AACP,UAAQ;AACR,oBAAkB;AAClB,WAAS;AACT,aAAW,OAAO;AAClB,oBAAkB;AAClB,kBAAgB;AAChB,eAAa;AACf;AACA,CAAC;AACC,WAAS;AACX;",
   "names": []
 }

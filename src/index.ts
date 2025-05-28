@@ -4,7 +4,6 @@ import './utils/barba';
 import {
   animateHeroSection,
   initHeadingAnimation,
-  initHeroAnimation,
   initNavbarAnimation,
   initPortfolioAnimation,
   initTestimonialParallax,
@@ -13,8 +12,6 @@ import {
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  initHeroAnimation();
-  initHeroAnimation();
   initTestimonialParallax();
   initHeadingAnimation();
   initNavbarAnimation();

@@ -4,7 +4,6 @@ import gsap from 'gsap';
 import {
   animateHeroSection,
   initHeadingAnimation,
-  initHeroAnimation,
   initNavbarAnimation,
   initPortfolioAnimation,
   initTestimonialParallax,
@@ -51,8 +50,6 @@ barba.init({
 
 // Réinitialisation des animations après chaque transition
 barba.hooks.after(() => {
-  initHeroAnimation();
-  initHeroAnimation();
   initTestimonialParallax();
   initHeadingAnimation();
   initNavbarAnimation();

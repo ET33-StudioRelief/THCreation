@@ -65,7 +65,7 @@ export function initPortfolioAnimation() {
   });
 }
 
-export function initHeroAnimation() {
+/*export function initFeaturesAnimation() {
   // Animation du contenu gauche
   gsap.from('.hp-features_content-left', {
     y: 30,
@@ -104,7 +104,7 @@ export function initHeroAnimation() {
       start: 'top 45%',
       toggleActions: 'play none none reverse',
     },
-  });*/
+  });
 
   // Animation séquentielle des éléments de la grille
   gsap.from('.hp-features_btn-group', {
@@ -119,7 +119,7 @@ export function initHeroAnimation() {
       toggleActions: 'play none none reverse',
     },
   });
-}
+}*/
 
 export const initTestimonialParallax = () => {
   const testimonialList = document.querySelector('.section_testimonial');
